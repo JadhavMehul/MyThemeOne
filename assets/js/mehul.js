@@ -6,19 +6,41 @@ $(document).ready(function () {
     ];
 
     let index = 0;
-
     const $slide = $('#hero_slide');
+    const $controls = $('#slide_controls div');
+    let interval;
 
-    // Set initial background image
+    // Set initial image and active control
     $slide.css('background-image', images[index]);
+    $controls.removeClass('active').eq(index).addClass('active');
 
-    setInterval(() => {
-        index = (index + 1) % images.length;
+    function startSlider() {
+        interval = setInterval(() => {
+            index = (index + 1) % images.length;
 
+            $slide.fadeOut(500, function () {
+                $slide.css('background-image', images[index]).fadeIn(500);
+                $controls.removeClass('active').eq(index).addClass('active');
+            });
+        }, 5000);
+    }
+
+    function showImage(i) {
+        clearInterval(interval); // Stop slider when manually selected
+        index = i;
         $slide.fadeOut(500, function () {
-            $slide.css('background-image', images[index]);
-            $slide.fadeIn(500);
+            $slide.css('background-image', images[index]).fadeIn(500);
+            $controls.removeClass('active').eq(index).addClass('active');
         });
+        startSlider(); // Restart slider
+    }
 
-    }, 5000);
+    // Start the auto-slider
+    startSlider();
+
+    // Handle span click
+    $controls.on('click', function () {
+        const clickedIndex = $(this).data('index');
+        showImage(clickedIndex);
+    });
 });
