@@ -44,3 +44,17 @@ $(document).ready(function () {
         showImage(clickedIndex);
     });
 });
+
+/* Skill Bar */
+	if ($('.skills-progress-bar').length) {
+		$('.skills-progress-bar').waypoint(function() {
+			$('.skillbar').each(function() {
+				$(this).find('.count-bar').animate({
+				width:$(this).attr('data-percent')
+				},2000);
+			});
+		},{
+			offset: '50%'
+		});
+	}
+    
