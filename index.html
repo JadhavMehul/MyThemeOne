@@ -35,6 +35,7 @@
     <!-- Fa Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./assets/css/t_styles.css">
+    <link rel="stylesheet" href="./assets/css/m_styles.css">
 </head>
 <body style="">
 
@@ -54,7 +55,7 @@
 				<div class="navbar navbar-expand-lg">
 					<!-- Logo Start -->
 					<a class="navbar-brand" href="index.html">
-						<img src="./assets/img/newAssets/S9  LOGO.jpg" alt="Logo" class="logo_size">
+						<img src="./assets/img/newAssets/S9 LOGO.png" alt="Logo" class="logo_size">
 						
 					</a>
 					<!-- Logo End -->
@@ -63,7 +64,7 @@
 					<div class="collapse navbar-collapse main-menu">
                         <div class="nav-menu-wrapper">
                             <ul class="navbar-nav mr-auto" id="menu">
-                                <li class="nav-item submenu"><a class="nav-link" href="index.html">Home</a>
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a>
                                     <!-- <ul>
                                         <li class="nav-item"><a class="nav-link" href="index.html">Home - Image</a></li>
                                         <li class="nav-item"><a class="nav-link" href="HomePageVideo.html">Home - Video</a></li>
@@ -73,7 +74,7 @@
                                 <li class="nav-item"><a class="nav-link" href="aboutus.html">About Us</a>
                                 </li><li class="nav-item"><a class="nav-link" href="Services.html">Services</a></li>
                                 <li class="nav-item"><a class="nav-link" href="Projects.html">Projects</a></li>
-                                <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
+                                <!-- <li class="nav-item"><a class="nav-link" href="Blog.html">Blog</a></li>
                                 <li class="nav-item submenu"><a class="nav-link" href="index.html#">Pages</a>
                                     <ul>                                        
                                         <li class="nav-item"><a class="nav-link" href="servicedetails.html">Service Details</a></li>
@@ -84,7 +85,7 @@
                                         <li class="nav-item"><a class="nav-link" href="404.html">404</a></li>
                                     </ul>
                                 </li>
-                                <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>                             
+                                <li class="nav-item"><a class="nav-link" href="ContactUs.html">Contact Us</a></li>                              -->
                             </ul>
                         </div>
                         <!-- Header Btn Start -->
@@ -126,7 +127,7 @@
 	<!-- Header End -->
 
     <!-- Hero Section Start -->
-    <div class="hero parallaxie" style="background-image: url(&quot;https://demo.awaikenthemes.com/html-preview/inspaire/images/hero-bg.jpg&quot;); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center -0.629297px;">
+    <div class="hero parallaxie" id="hero_slide" style="background-image: url('https://picsum.photos/200'); background-size: cover; background-repeat: no-repeat; background-attachment: fixed; background-position: center -0.629297px;">
         <div class="container">
             <div class="row align-items-center">
                 <div class="col-lg-10">
@@ -142,8 +143,8 @@
 
                         <!-- Hero Button Start -->
                         <div class="hero-btn wow fadeInUp" data-wow-delay="0.4s" style="visibility: visible; animation-delay: 0.4s; animation-name: fadeInUp;">
-                            <a href="aboutus.html" class="btn-default">explore more</a>
-                            <a href="Projects.html" class="btn-default btn-highlighted">view projects</a>
+                            <a href="./ImageGallery.html" class="btn-default">explore more</a>
+                            <a href="#project_section" class="btn-default btn-highlighted">view projects</a>
                         </div>
                         <!-- Hero Button End -->
                     </div>
@@ -151,6 +152,11 @@
                 </div>
             </div>
         </div>
+            <div id="slide_controls">
+                <div data-index="0"></div>
+                <div data-index="1"></div>
+                <div data-index="2"></div>
+            </div>
     </div>
     <!-- Hero Section End -->
     
@@ -220,7 +226,7 @@
 
                                 <!-- About Us Content Button Start -->
                                 <div class="about-us-content-btn wow fadeInUp" data-wow-delay="0.6s" style="visibility: visible; animation-delay: 0.6s; animation-name: fadeInUp;">
-                                    <a href="aboutus.html" class="btn-default">read more</a>
+                                    <a href="./aboutus.html" class="btn-default">read more</a>
                                 </div>
                                 <!-- About Us Content Button End -->
                             </div>
@@ -276,7 +282,7 @@
                         <div class="section-title">
                             <h3 class="wow fadeInUp" style="visibility: hidden; animation-name: none;">why choose us</h3>
 
-                            <h2 class="text-anime-style-2" data-cursor="-opaque"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">A</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">b</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">d</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">e</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">s</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">l</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">k</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">t</div></div> <span><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">r</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">g</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">y</div></div></span></h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">A</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">b</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">d</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">l</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">k</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div></div> <span><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">g</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">y</div></div></span></h2>
                             
                             
                               
@@ -400,7 +406,8 @@
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp" style="visibility: hidden; animation-name: none;">our services</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">I</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">v</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">v</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">d</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">g</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">n</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">v</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">s</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">f</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">r</div></div> <span><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">v</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">y</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">d</div></div></span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">I</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">v</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">v</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">d</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">g</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">v</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">f</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div></div> <span><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">v</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">y</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">d</div></div></span></h2>
+                          
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -422,7 +429,7 @@
                         <div class="service-image">
                             <a href="servicedetails.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="./assets/img/service-1.jpg" alt="">
+                                    <img src="./assets/img/newAssets/PROJECTS/OBEROI SKY CITY/1e.png" alt="">
                                 </figure>
                             </a>
                         </div>
@@ -451,7 +458,7 @@
                         <div class="service-image">
                             <a href="servicedetails.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="./assets/img/service-2.jpg" alt="">
+                                    <img src="./assets/img/newAssets/PROJECTS/SILVER SPRINGS - ANDHERI EAST OFFICE/M.png" alt="">
                                 </figure>
                             </a>
                         </div>
@@ -480,7 +487,7 @@
                         <div class="service-image">
                             <a href="servicedetails.html" data-cursor-text="View">
                                 <figure class="image-anime">
-                                    <img src="./assets/img/service-3.jpg" alt="">
+                                    <img src="./assets/img/newAssets/PROJECTS/ABHISHEK JAIN/IMG-20240220-WA0022.jpg" alt="">
                                 </figure>
                             </a>
                         </div>
@@ -545,14 +552,14 @@
     <!-- Intro Video Section End -->
 
     <!-- Our Project Start -->
-    <div class="our-project">
+    <div class="our-project" id="project_section">
         <div class="container">
             <div class="row section-row align-items-center">
                 <div class="col-lg-5">
                     <!-- Section Title Start -->
                     <div class="section-title">
                         <h3 class="wow fadeInUp" style="visibility: hidden; animation-name: none;">latest project</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">C</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">v</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">e</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">j</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">s</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">t</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">d</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">f</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">e</div></div><span> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">r</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">y</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">l</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(20px, 0px);">e</div></div></span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">C</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">v</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">j</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">d</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">f</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div></div><span> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">y</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">l</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div></div></span></h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -737,7 +744,7 @@
                     <!-- Section Title Start -->
                     <div class="section-title dark-section">
                         <h3 class="wow fadeInUp" style="visibility: hidden; animation-name: none;">how we work</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">F</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">m</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">t</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">m</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">l</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">n</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">n</div></div><span> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">r</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">w</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">k</div></div></span></h2>
+                        <h2 class="text-anime-style-2" data-cursor="-opaque"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">F</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">m</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">m</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">l</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div></div><span> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">w</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">k</div></div></span></h2>
                     </div>
                     <!-- Section Title End -->
                 </div>
@@ -805,61 +812,7 @@
                     </div>
                     <!-- How We Work List End -->
 
-                    <!-- How Work Company Slider Start -->
-                    <div class="how-work-company-slider">
-                        <div class="swiper swiper-initialized swiper-horizontal swiper-backface-hidden">
-                            <div class="swiper-wrapper" id="swiper-wrapper-b6f926aa4102a14b4" aria-live="off" style="transition-duration: 2000ms; transform: translate3d(-260px, 0px, 0px);">
-                                <!-- Company Support Logo Start -->
-                                
-                                <!-- Company Support Logo End -->
-
-                                <!-- Company Support Logo Start -->
-                                
-                                <!-- Company Support Logo End -->
-
-                                <!-- Company Support Logo Start -->
-                                
-                                <!-- Company Support Logo End -->
-                                
-                                <!-- Company Support Logo Start -->
-                                <div class="swiper-slide swiper-slide-prev" role="group" aria-label="4 / 6" data-swiper-slide-index="3" style="width: 230px; margin-right: 30px;">
-                                    <div class="company-logo">
-                                        <img src="./assets/img/company-logo-4.svg" alt="">
-                                    </div>
-                                </div>
-                                <!-- Company Support Logo End -->
-                                
-                                <!-- Company Support Logo Start -->
-                                <div class="swiper-slide swiper-slide-active" role="group" aria-label="5 / 6" data-swiper-slide-index="4" style="width: 230px; margin-right: 30px;">
-                                    <div class="company-logo">
-                                        <img src="./assets/img/company-logo-5.svg" alt="">
-                                    </div>
-                                </div>
-                                <!-- Company Support Logo End -->
-                                
-                                <!-- Company Support Logo Start -->
-                                <div class="swiper-slide swiper-slide-next" role="group" aria-label="6 / 6" data-swiper-slide-index="5" style="width: 230px; margin-right: 30px;">
-                                    <div class="company-logo">
-                                        <img src="./assets/img/company-logo-1.svg" alt="">
-                                    </div>
-                                </div>
-                                <!-- Company Support Logo End -->
-                            <div class="swiper-slide" role="group" aria-label="1 / 6" data-swiper-slide-index="0" style="width: 230px; margin-right: 30px;">
-                                    <div class="company-logo">
-                                        <img src="./assets/img/company-logo-1.svg" alt="">
-                                    </div>
-                                </div><div class="swiper-slide" role="group" aria-label="2 / 6" data-swiper-slide-index="1" style="width: 230px; margin-right: 30px;">
-                                    <div class="company-logo">
-                                        <img src="./assets/img/company-logo-2.svg" alt="">
-                                    </div>
-                                </div><div class="swiper-slide" role="group" aria-label="3 / 6" data-swiper-slide-index="2" style="width: 230px; margin-right: 30px;">
-                                    <div class="company-logo">
-                                        <img src="./assets/img/company-logo-3.svg" alt="">
-                                    </div>
-                                </div></div>
-                        <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span></div>
-                    </div>
-                    <!-- How Work Company Slider End -->
+                    
                 </div>
             </div>
         </div>
@@ -876,7 +829,7 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp" style="visibility: hidden; animation-name: none;">our skills</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">S</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">k</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">l</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">l</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">s</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">t</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">y</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">r</div></div><span> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">d</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">m</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">m</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div></div></span></h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">S</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">k</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">l</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">l</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">y</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div></div><span> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">d</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">m</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">m</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div></div></span></h2>
                             <p class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">Our dedicated team of designers works closely with you to understand your vision and bring it to life with thoughtful attention to detail.</p>
                         </div>
                         <!-- Section Title End -->
@@ -941,19 +894,19 @@
                     <div class="our-skill-image">
                         <div class="our-skill-img-1">
                             <figure class="image-anime reveal">
-                                <img src="./assets/img/our-skill-img-1.jpg" alt="" style="transform: translate(0px, 0px);">
+                                <img src="./assets/img/newAssets/PROJECTS/VILE PARLE/21.png" alt="" style="transform: translate(0px, 0px);">
                             </figure>
                         </div>
 
                         <div class="our-skill-img-2">
                             <figure class="image-anime reveal">
-                                <img src="./assets/img/our-skill-img-2.jpg" alt="" style="transform: translate(0px, 0px);">
+                                <img src="./assets/img/newAssets/PROJECTS/KALPATARU RADIANCE/10.jpg" alt="" style="transform: translate(0px, 0px);">
                             </figure>
                         </div>
 
                         <div class="our-skill-img-3">
                             <figure class="image-anime reveal">
-                                <img src="./assets/img/our-skill-img-3.jpg" alt="" style="transform: translate(0px, 0px);">
+                                <img src="./assets/img/newAssets/PROJECTS/OBEROI SKY CITY/J.png" alt="" style="transform: translate(0px, 0px);">
                             </figure>
                         </div>
                     </div>
@@ -972,7 +925,7 @@
                     <!-- Our Testimonial Image Start -->
                     <div class="our-testimonials-image">
                         <figure class="image-anime">
-                            <img src="./assets/img/testimonial-img.jpg" alt="">
+                            <img src="./assets/img/newAssets/PROJECTS/VILE PARLE/7.png" alt="">
                         </figure>
                     </div>
                     <!-- Our Testimonial Image End -->
@@ -984,7 +937,7 @@
                         <!-- Section Title Start -->
                         <div class="section-title">
                             <h3 class="wow fadeInUp" style="visibility: hidden; animation-name: none;">client testimonials</h3>
-                            <h2 class="text-anime-style-2" data-cursor="-opaque"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">T</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">d</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">b</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">y</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">d</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">f</div></div> <span><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">l</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">&amp;</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">m</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">.</div></div></span></h2>
+                            <h2 class="text-anime-style-2" data-cursor="-opaque"><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">T</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">d</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">b</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">y</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">h</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">d</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">f</div></div> <span><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">l</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">&amp;</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">c</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">m</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">a</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 1; visibility: inherit; transform: translate(0px, 0px);">.</div></div></span></h2>
                         </div>
                         <!-- Section Title End -->
 
@@ -1079,136 +1032,7 @@
     </div>
     <!-- Our Testimonial End -->
 
-    <!-- Our Blog Section Start -->
-    <div class="our-blog">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-6">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp" style="visibility: hidden; animation-name: none;">latest news</h3>
-                        <h2 class="text-anime-style-2" data-cursor="-opaque"><span><div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">Y</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">r</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">g</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">u</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">d</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div></div></span> <div style="position:relative;display:inline-block;"> <div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">s</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">p</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">d</div></div> <div style="position:relative;display:inline-block;"><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">n</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">t</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">e</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">i</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">o</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">r</div><div style="position: relative; display: inline-block; opacity: 0; visibility: hidden; transform: translate(20px, 0px);">s</div></div></h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-
-                <div class="col-lg-6">
-                    <!-- Section Title Content Start -->
-                    <div class="section-title-content">
-                        <p class="wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">Your journey to abcd interiors begins here. Our blog offers a wealth of resources, including design tips, trend analyses.</p>
-                    </div>
-                    <!-- Section Title Content End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-4 col-md-6">
-                    <!-- Post Item Start -->
-                    <div class="post-item wow fadeInUp" style="visibility: hidden; animation-name: none;">
-                        <!-- Post Featured Image Start-->
-                        <div class="post-featured-image">
-                            <figure>
-                                <a href="Blogdetails.html" class="image-anime" data-cursor-text="View">
-                                    <img src="./assets/img/post-1.jpg" alt="">
-                                </a>
-                            </figure>
-                        </div>
-                        <!-- Post Featured Image End -->
-
-                        <!-- Post Item Body Start -->
-                        <div class="post-item-body">
-                            <!-- Post Item Content Start -->
-                            <div class="post-item-content">
-                                <h3><a href="Blogdetails.html">How Does One Go About a Buying Furniture?</a></h3>
-                            </div>
-                            <!-- Post Item Content End -->
-
-                            <!-- Blog Item Button Start -->
-                            <div class="post-item-btn">
-                                <a href="Blogdetails.html" class="post-btn">read more</a>
-                            </div>
-                            <!-- Blog Item Button End -->
-                        </div>
-                        <!-- Post Item Body End -->
-                    </div>
-                    <!-- Post Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Post Item Start -->
-                    <div class="post-item wow fadeInUp" data-wow-delay="0.2s" style="visibility: hidden; animation-delay: 0.2s; animation-name: none;">
-                        <!-- Post Featured Image Start-->
-                        <div class="post-featured-image">
-                            <figure>
-                                <a href="Blogdetails.html" class="image-anime" data-cursor-text="View">
-                                    <img src="./assets/img/post-2.jpg" alt="">
-                                </a>
-                            </figure>
-                        </div>
-                        <!-- Post Featured Image End -->
-
-                        <!-- Post Item Body Start -->
-                        <div class="post-item-body">
-                            <!-- Post Item Content Start -->
-                            <div class="post-item-content">
-                                <h3><a href="Blogdetails.html">Innovative Décor Ideas Shaping Homes Today</a></h3>
-                            </div>
-                            <!-- Post Item Content End -->
-
-                            <!-- Blog Item Button Start -->
-                            <div class="post-item-btn">
-                                <a href="Blogdetails.html" class="post-btn">read more</a>
-                            </div>
-                            <!-- Blog Item Button End -->
-                        </div>
-                        <!-- Post Item Body End -->
-                    </div>
-                    <!-- Post Item End -->
-                </div>
-
-                <div class="col-lg-4 col-md-6">
-                    <!-- Post Item Start -->
-                    <div class="post-item wow fadeInUp" data-wow-delay="0.4s" style="visibility: hidden; animation-delay: 0.4s; animation-name: none;">
-                        <!-- Post Featured Image Start-->
-                        <div class="post-featured-image">
-                            <figure>
-                                <a href="Blogdetails.html" class="image-anime" data-cursor-text="View">
-                                    <img src="./assets/img/post-3.jpg" alt="">
-                                </a>
-                            </figure>
-                        </div>
-                        <!-- Post Featured Image End -->
-
-                        <!-- Post Item Body Start -->
-                        <div class="post-item-body">
-                            <!-- Post Item Content Start -->
-                            <div class="post-item-content">
-                                <h3><a href="Blogdetails.html">Design Industry Updates You Should Know About</a></h3>
-                            </div>
-                            <!-- Post Item Content End -->
-
-                            <!-- Blog Item Button Start -->
-                            <div class="post-item-btn">
-                                <a href="Blogdetails.html" class="post-btn">read more</a>
-                            </div>
-                            <!-- Blog Item Button End -->
-                        </div>
-                        <!-- Post Item Body End -->
-                    </div>
-                    <!-- Post Item End -->
-                </div>
-
-                <div class="col-lg-12">
-                    <!-- Our Blog Footer Start -->
-                    <div class="our-blog-footer wow fadeInUp" data-wow-delay="0.6s" style="visibility: hidden; animation-delay: 0.6s; animation-name: none;">
-                        <a href="Blog.html" class="btn-default">See All Blogs</a>
-                    </div>
-                    <!-- Our Blog Footer End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Blog Section End -->
+    
 
     <!-- Footer Start -->
     <footer class="main-footer">
@@ -1385,5 +1209,9 @@
     <script src="./assets/js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="./assets/js/function.js"></script>
+
+
+    <script src="./assets/js/mehul.js"></script>
+
 
 </body></html>

@@ -365,7 +365,7 @@ body{
 	line-height: 1.6em;
     text-transform: capitalize;
     color: var(--accent-color);
-	padding-left: 35px;
+	padding-left: 0px;
     margin-bottom: 20px;
 }
 
@@ -1107,7 +1107,8 @@ header.main-header .header-sticky.active .navbar{
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color: var(--primary-color);
+	/* background-color: var(--primary-color); */
+	background-color: #EFB422;
 	border-radius: 50%;
 	height: 100%;
 	width: 100%;
